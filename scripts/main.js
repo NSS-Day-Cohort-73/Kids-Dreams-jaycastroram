@@ -3,7 +3,7 @@ import { Celebrities } from "./CelebrityList.js"
 import { Kids } from "./Kids.js"
 
 const mainContainer = document.querySelector("#container")
-
+debugger
 const applicationHTML = `
     <h1>Make a Memory for Kids</h1>
     <article class="details">
@@ -19,6 +19,7 @@ const applicationHTML = `
 
     <article class="assignments">
         <h2>Pairings</h2>
+        ${Pairings()}
     </article>
 `
 
